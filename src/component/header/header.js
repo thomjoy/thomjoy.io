@@ -1,9 +1,10 @@
 import React from "react";
+require('./header.css');
 
 export default () => {
   return (
     <header>
-      <h2>thomjoy.io</h2>
+      <h1>% thomjoy.io <span>|</span></h1>
     </header>
   );
 };

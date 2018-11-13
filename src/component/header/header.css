@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'Menlo', 'Inconsolata', sans-serif;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 1em;
+  line-height: 1.75em;
+  padding: 0.25em;
+  font-weight: normal;
+}
+
+h1 span {
+  color: transparent;
+  animation: blinkthat 1.1s ease-in infinite;
+}
+
+@keyframes blinkthat {
+  0% { background-color: #FFFFFF; }
+  50% { background-color: #23223F; }
+  100% { background-color: #FFFFFF; }
+}

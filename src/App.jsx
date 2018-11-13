@@ -1,6 +1,6 @@
 import React from "react";
-import Lines from "./component/lines";
-import Header from "./component/header";
+import Lines from "./component/lines/lines";
+import Header from "./component/header/header";
 require("./app.css");
 
 import { genDateValue } from "@vx/mock-data";
