@@ -1,14 +1,16 @@
 {
-  "name": "tj-react-webpack-boilerplate",
+  "name": "thomjoy.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback --env.PLATFORM=local --env.VERSION=development"
+    "start": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback --env.PLATFORM=local --env.VERSION=development",
+    "build": "webpack --mode production --config config/webpack.base.config.js --env.VERSION=production"
   },
-  "author": "",
-  "license": "ISC",
+  "private": true,
+  "author": "Thom Joy",
+  "license": "MIT",
   "dependencies": {
     "@vx/curve": "0.0.165",
     "@vx/gradient": "0.0.165",
